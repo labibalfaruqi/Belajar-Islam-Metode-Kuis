@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BIMQ.iml" filepath="$PROJECT_DIR$/.idea/modules/BIMQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BIMQ.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BIMQ.app.iml" />
+    </modules>
+  </component>
+</project>

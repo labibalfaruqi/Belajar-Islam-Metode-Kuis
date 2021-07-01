@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PemilihanLevelActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:id="@+id/PLButtonBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginStart="10dp"
+            android:background="#00000000"
+            app:srcCompat="@drawable/ic_arrow_back" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/PLTextViewJudul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Pilihan Ganda\n Materi x"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/PLButtonLevelSatu"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_roundedcorner_grey"
+                android:text="Level 1"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/PLButtonLevelDua"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_roundedcorner_grey"
+                android:clickable="false"
+                android:text="Level 2"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/PLButtonLevelTiga"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_roundedcorner_grey"
+                android:clickable="false"
+                android:text="Level 3"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/PLButtonLevelEmpat"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_roundedcorner_grey"
+                android:clickable="false"
+                android:text="Level 4"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/PLButtonLevelLima"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_roundedcorner_grey"
+                android:clickable="false"
+                android:text="Level 5"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/PLButtonLevelEnam"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_roundedcorner_grey"
+                android:clickable="false"
+                android:text="Level 6"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

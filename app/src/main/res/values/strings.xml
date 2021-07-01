@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Belajar Islam Metode Kuis</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="klik_disini"><u>Klik disini</u></string>
+    <string name="masuk_disini"><u>Masuk disini</u></string>
+    <string name="email_verifikasi_sudah_dikirim">Email verifikasi sudah dikirimkan ke alamat email Anda. Silahkan periksa email Anda untuk memverifikasi akun Anda.</string>
+    <string name="masuk_gagal">Masuk Gagal</string>
+    <string name="pendaftaran_berhasil">Pendaftaran Berhasil</string>
+    <string name="akun_belum_diverifikasi">Akun Anda belum diverifikasi. Harap verifikasi akun Anda terlebih dahulu melalui email yang sudah dikirimkan.</string>
+    <string name="terdapat_kesalahan_saat_mendaftar">Terdapat kesalahan saat mendaftar:</string>
+</resources>

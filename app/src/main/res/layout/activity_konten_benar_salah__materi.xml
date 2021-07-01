@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".KontenBenarSalah_MateriActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/KBSButtonBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginStart="10dp"
+            android:background="#00000000"
+            android:text="Button"
+            app:srcCompat="@drawable/ic_arrow_back" />
+
+        <TextView
+            android:id="@+id/KBSTextViewJudul"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Kuis Benar Salah Materi x"
+            android:textColor="#000000"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:background="#00000000"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_arrow_back" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="20dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            >
+            <TextView
+                android:id="@+id/KBSTextViewNomorSoal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="1. "
+                android:textColor="#000000"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/KBSTextViewSoal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="Ini merupakan contoh soal benar salah nomor satu"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            style="?android:attr/buttonBarStyle"
+            android:layout_gravity="center"
+            >
+        <ImageButton
+            android:id="@+id/KBSButtonBenar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/bg_roundedcorner_blue"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            style="?android:attr/buttonBarButtonStyle"
+            app:srcCompat="@drawable/ic_true_button"
+            android:layout_weight="1"
+            android:backgroundTint="@color/hijau_benar"/>
+        <ImageButton
+            android:id="@+id/KBSButtonSalah"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/bg_roundedcorner_blue"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            style="?android:attr/buttonBarButtonStyle"
+            app:srcCompat="@drawable/ic_false_button"
+            android:layout_weight="1"
+            android:backgroundTint="@color/merah_salah"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
